@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I’m Minki Hong, an M.S. student in [Computer Science and Artificial Intelligence]{: .highlight} at Dongguk University, advised by Professor Jihie Kim. I received my B.S. degree in [Computer Science & Engineering]{: .highlight} from Dongguk University.
+Hi! I’m Minki Hong, an M.S. student in [Computer Science and Artificial Intelligence]{: .highlight} at Dongguk University, advised by Professor Jihie Kim. I received my B.S. degree in **Computer Science & Engineering**{: .highlight .gs} from Dongguk University.
 
 My research interests lie in developing AI systems that [align with human social norms and values]{: .highlight}. I focus on the intersection of generative AI, [social norms]{: .highlight}, and [bias mitigation]{: .highlight}, with a particular emphasis on fairness and inclusivity. I am especially fascinated by how cultural and social contexts shape communication and how AI models can better capture these nuances. In addition, I explore methods to [improve the quality of generative AI responses in low-resource environments]{: .highlight}, aiming to make AI more accessible and equitable across diverse linguistic and cultural settings.
 
