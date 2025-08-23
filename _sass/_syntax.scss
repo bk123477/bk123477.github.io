@@ -26,6 +26,16 @@ div.highlighter-rouge, figure.highlight {
     speak: none;
   }
 
+  /* pill 스타일의 인라인 강조 */
+.mm-pill {
+  background: #2b90d9;
+  color: #fff;
+  padding: .1em .45em;
+  border-radius: .35em;
+  font-weight: 600;
+  white-space: nowrap; /* 여러 단어가 줄바꿈으로 갈라지는 것을 줄임(선택) */
+}
+
   .highlight {
     margin: 0;
     font-family: $monospace;
