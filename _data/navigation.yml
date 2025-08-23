@@ -10,15 +10,15 @@
 main:
   - title: "About Me"
     url: /
+
+  - title: "News"
+    url: /year-archive/
     
   - title: "Publications"
     url: /publications/
 
   # - title: "Talks"
   #   url: /talks/    
-  - title: "News"
-    url: /year-archive/
-
   - title: "Teaching"
     url: /teaching/    
     
