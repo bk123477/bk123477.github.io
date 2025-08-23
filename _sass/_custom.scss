@@ -1,0 +1,17 @@
+/* === Inline pill highlight === */
+.mm-pill {
+  display: inline-block;
+  padding: .15em .5em;
+  border-radius: .4em;
+  font-weight: 700;
+  line-height: 1;
+  /* 다크/라이트 스킨 모두 대비 확보 */
+  background: #2b90d9;
+  color: #fff;
+}
+
+/* 필요하면 색상을 더 만드세요 */
+.mm-blue   { background:#2b90d9; color:#fff; }
+.mm-green  { background:#27ae60; color:#fff; }
+.mm-orange { background:#e67e22; color:#fff; }
+.mm-red    { background:#e74c3c; color:#fff; }
