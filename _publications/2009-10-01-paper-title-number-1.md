@@ -5,7 +5,7 @@ category: conference
 permalink: /publication/normgenesis
 excerpt: 'arXiV and camera-ready version -> coming soon !'
 date: 2025-08-19
-venue: 'Journal 1'
+venue: 'EMNLP 2025'
 slidesurl: ''
 paperurl: ''
 bibtexurl: ''
