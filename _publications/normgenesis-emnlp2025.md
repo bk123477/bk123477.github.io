@@ -6,10 +6,10 @@ permalink: /publication/normgenesis
 excerpt: 'arXiV and camera-ready version -> coming soon !'
 date: 2025-08-19
 venue: 'EMNLP 2025'
-slidesurl: 
-paperurl: 
-bibtexurl: 
-citation: 
+# slidesurl: 
+# paperurl: 
+# bibtexurl: 
+# citation: 
 ---
 Excited to share that our paper, “NormGenesis: Multicultural Dialogue Generation via Exemplar-Guided Social Norm Modeling and Violation Recovery,” has been accepted to the Main Conference of EMNLP 2025! 🎉
 This work addresses a key limitation of large language models (LLMs): their inability to adequately reflect social norms and generate high-quality dialogues in low-resource languages.

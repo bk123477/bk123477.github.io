@@ -6,7 +6,7 @@ permalink: /publication/korean-image-captioning
 excerpt: 'This paper accepted in HCLT-KACL 2024 (oral)'
 date: 2024-09-17
 venue: 'HCLT-KACL 2024'
-paperurl: 
+# paperurl: 
 citation: 'Hong, M., Yun, Y., Park, S., & Kim, J. (2024). Generating Korean Image Captions using OCR in CoT Prompting. In Annual Conference on Human and Language Technology (pp. 165-168). Human and Language Technology.'
 ---
 

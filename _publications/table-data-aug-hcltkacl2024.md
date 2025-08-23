@@ -6,8 +6,8 @@ permalink: /publication/table-data-augmentation
 excerpt: 'This paper accepted in HCLT-KACL 2024 (poster)'
 date: 2024-09-17
 venue: 'HCLT-KACL 2024'
-slidesurl: 
-paperurl: 
+# slidesurl: 
+# paperurl: 
 citation: 'Lee, J., Hong, M., Lee, E., & Kim, J. (2024). LLM-based Table Data Inference using Data Augmentation and Few-Shot Prompting. In Annual Conference on Human and Language Technology (pp. 587-589). Human and Language Technology.'
 ---
 

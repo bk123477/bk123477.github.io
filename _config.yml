@@ -87,6 +87,12 @@ publication_category:
   domestic:
     title: 'Domestic Conferences'
 
+patent_category:
+  patents:
+    title: "Patents"
+  softwares:
+    title: "Software Registrations"
+
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -227,6 +233,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
+    output: true
+    permalink: /:collection/:path/
+  patents:
     output: true
     permalink: /:collection/:path/
 
