@@ -46,5 +46,5 @@ If you would like to connect or chat, please feel free to reach out:
 <p><a href="{{ '/publications/' | relative_url }}">All publications →</a></p>
 
 ## 🎓 Education
-- 2024– : M.S., Dongguk University (…)
-- 2020–2024: B.S., CSE, Dongguk University (…)
+- M.S. in Computer Science and Artificial Intelligence. Dongguk University. Mar. 2024 - Present
+- B.S. in Computer Science & Engineering. Dongguk University. Mar. 2018 - Feb. 2024
