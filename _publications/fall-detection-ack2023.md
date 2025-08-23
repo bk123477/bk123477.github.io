@@ -6,7 +6,7 @@ permalink: /publication/fall-detection
 excerpt: 'This paper accepted in ACK 2023 (undergrad students)'
 date: 2023-09-17
 venue: 'ACK 2023'
-paperurl: ''
+paperurl: 
 citation: 'Hong, M.-K., Lee, S.-H., & Shin, Y.-S. (2023). Proposal of an Improved Fall Detection Using GRU. Annual Conference of KIPS, 287–288. https://doi.org/10.3745/PKIPS.Y2023M11A.287.'
 ---
 

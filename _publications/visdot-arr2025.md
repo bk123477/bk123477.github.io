@@ -6,8 +6,8 @@ permalink: /publication/visdot
 excerpt: 'Under-review'
 date: 2025-07-28
 venue: '(Under Review) ACL Rolling Review - July 2025'
-paperurl: ''
-citation: ''
+paperurl: 
+citation: 
 ---
 Under-review
 =====
