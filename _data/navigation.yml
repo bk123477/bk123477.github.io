@@ -16,8 +16,8 @@ main:
 
   # - title: "Talks"
   #   url: /talks/    
-  - title: "Updates"
-    url: /update/
+  - title: "News"
+    url: /year-archive/
 
   - title: "Teaching"
     url: /teaching/    
