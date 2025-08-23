@@ -14,12 +14,10 @@ citation: ''
 Excited to share that our paper, “NormGenesis: Multicultural Dialogue Generation via Exemplar-Guided Social Norm Modeling and Violation Recovery,” has been accepted to the Main Conference of EMNLP 2025! 🎉
 This work addresses a key limitation of large language models (LLMs): their inability to adequately reflect social norms and generate high-quality dialogues in low-resource languages.
 
-{% include figure
-   image_path="/images/publications/normgenesis.png"
-   alt="NormGenesis framework"
-   caption="**Figure 1.** *NormGenesis* pipeline: (1) Social norm design, (2) GPT-based initial generation, (3) exemplar-guided iterative refinement, (4) dialogue generation, and (5) labeling with Violation-to-Resolution (V2R)."
-   width="800px"
-%}
+<figure>
+  <img src="/images/publications/normgenesis.png" alt="NormGenesis pipeline" style="max-width: 800px;">
+  <figcaption><strong>Figure 1.</strong> Overview of the <em>NormGenesis</em> pipeline.</figcaption>
+</figure>
 
 With NormGenesis, we:
 1️⃣ Built culturally appropriate, high-quality dialogue datasets by collecting social norm data from diverse cultures and refining generated dialogues through iterative guidance from a small set of expert exemplars.
