@@ -10,17 +10,21 @@ redirect_from:
 안녕하세요! (자기소개 2~3문장)
 
 ## 📰 News
-{% assign posts = site.posts | slice: 0, 5 %}
+{% assign sorted_posts = site.posts | sort: 'date' | reverse %}
 <ul>
-{% for post in posts %}
-  <li><strong>{{ post.date | date: "%b %d, %Y" }}</strong> – <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+{% for post in sorted_posts limit:5 %}
+  <li>
+    <strong>{{ post.date | date: "%b %d, %Y" }}</strong> – 
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </li>
 {% endfor %}
 </ul>
 <p><a href="{{ '/year-archive/' | relative_url }}">More →</a></p>
 
 ## 📚 Publications
+{% assign sorted_pubs = site.publications | sort: 'year' | reverse %}
 <ul>
-{% for p in site.publications limit:5 %}
+{% for p in sorted_pubs limit:5 %}
   <li>
     {% if p.venue %}<span>{{ p.venue }} {{ p.year }}</span> — {% endif %}
     <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
