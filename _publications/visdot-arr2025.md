@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/visdot
 excerpt: 'Under-review'
 date: 2025-07-28
-venue: 'ACL Rolling Review - July 2025'
+venue: '(Under Review) ACL Rolling Review - July 2025'
 paperurl: ''
 citation: ''
 ---
