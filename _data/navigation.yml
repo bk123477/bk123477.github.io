@@ -16,11 +16,15 @@ main:
     
   - title: "Publications"
     url: /publications/
+  
+  - title: "Patents & SoftWares"
+    url: /patents
 
   # - title: "Talks"
   #   url: /talks/    
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
+  
     
   # - title: "Portfolio"
   #   url: /portfolio/
