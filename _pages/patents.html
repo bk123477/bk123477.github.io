@@ -7,22 +7,39 @@ author_profile: true
 
 {% include base_path %}
 
+{% comment %}
+  1) 모든 특허/소프트웨어 항목을 출원일(ISO 날짜) 기준 오름차순 정렬
+  2) 카테고리 루프를 돌며 해당 카테고리의 항목만 출력
+  - 각 아이템의 front matter에 반드시 `date:`(예: 2025-08-04)와 `category:`(patents | softwares)가 있어야 함
+{% endcomment %}
+
+{% assign sorted_all = site.patents | sort: "date" | reverse %}
+
 {% if site.patent_category %}
   {% for category in site.patent_category %}
-    {% assign title_shown = false %}
-    {% for post in site.patents reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+    {% assign items = sorted_all | where: "category", category[0] %}
+    {% if items.size > 0 %}
+      <h2>{{ category[1].title }}</h2><hr />
+
+      {% assign current_year = "" %}
+      {% for post in items %}
+        {% assign year = post.date | date: "%Y" %}
+        {% if year != current_year %}
+          <h3 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h3>
+          {% assign current_year = year %}
+        {% endif %}
+        {% include archive-single.html %}
+      {% endfor %}
+    {% endif %}
   {% endfor %}
 {% else %}
-  {% for post in site.patents reversed %}
+  {% assign current_year = "" %}
+  {% for post in sorted_all %}
+    {% assign year = post.date | date: "%Y" %}
+    {% if year != current_year %}
+      <h3 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h3>
+      {% assign current_year = year %}
+    {% endif %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
