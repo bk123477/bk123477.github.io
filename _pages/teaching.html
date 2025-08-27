@@ -8,15 +8,14 @@ author_profile: true
 {% include base_path %}
 
 {% assign sorted_teaching = site.teaching | sort: "date" | reverse %}
-
 {% assign current_year = "" %}
 {% assign current_season = "" %}
 
 {% for post in sorted_teaching %}
-  {% assign year = post.date | date: "%Y" %}
+  {% assign year  = post.date | date: "%Y" %}
   {% assign month = post.date | date: "%m" %}
 
-  {%- comment -%} 학기 계산 {%- endcomment -%}
+  {%- comment -%} 시즌 계산 {%- endcomment -%}
   {% if month <= "04" %}
     {% assign season = "Spring" %}
   {% elsif month <= "08" %}
@@ -25,16 +24,16 @@ author_profile: true
     {% assign season = "Fall" %}
   {% endif %}
 
-  {%- comment -%} 연도 변경 시: 연도 헤더 출력 & 시즌 리셋 {%- endcomment -%}
+  {%- comment -%} 연도 변경: 큰 제목처럼 표시 {%- endcomment -%}
   {% if year != current_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+    <h1 class="page__title page__title--year">{{ year }}</h1>
     {% assign current_year = year %}
     {% assign current_season = "" %}
   {% endif %}
 
-  {%- comment -%} 시즌 변경 시: 시즌 소제목 출력 (해당 시즌에 첫 항목일 때만) {%- endcomment -%}
+  {%- comment -%} 시즌 변경: 소제목 표시 (있을 때만) {%- endcomment -%}
   {% if season != current_season %}
-    <h3 class="archive__subtitle" style="margin-top:.75rem">{{ season }}</h3>
+    <h3 class="archive__subtitle season-subtitle">{{ season }}</h3>
     {% assign current_season = season %}
   {% endif %}
 
