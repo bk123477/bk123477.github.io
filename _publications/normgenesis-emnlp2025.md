@@ -7,7 +7,7 @@ excerpt: 'arXiV and camera-ready version -> coming soon !'
 date: 2025-08-19
 venue: 'EMNLP 2025'
 # slidesurl: 
-# paperurl: 
+paperurl: 'https://arxiv.org/abs/2509.18395'
 # bibtexurl: 
 # citation: 
 ---
@@ -24,4 +24,4 @@ With NormGenesis, we:
 2️⃣ Introduced the Violation-to-Resolution (V2R) paradigm, the first systematic framework where conversations not only include norm violations but also the process of realizing and repairing those violations, enabling smoother and more natural dialogues.
 3️⃣ Demonstrated that models trained on the NormGenesis dataset significantly outperform those trained on existing social norm or commonsense dialogue datasets, achieving state-of-the-art performance.
 
-A camera-ready version, along with the preprint and code, will be released soon. Stay tuned!!
+You can find our paper at this link: https://arxiv.org/abs/2509.18395
