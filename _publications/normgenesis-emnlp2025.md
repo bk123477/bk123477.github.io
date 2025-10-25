@@ -3,7 +3,7 @@ title: "NormGenesis: Multicultural Dialogue Generation via Exemplar-Guided Socia
 collection: publications
 category: conferences
 permalink: /publication/normgenesis
-excerpt: 'arXiV and camera-ready version -> coming soon !'
+excerpt: 'Our paper is now public on the arXiv!'
 date: 2025-08-19
 venue: 'EMNLP 2025'
 # slidesurl: 
