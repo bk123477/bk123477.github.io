@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/continual-learning
 excerpt: 'Under-review'
 date: 2025-08-05
-venue: '(Under Review) Engineering Applications of Artificial Intelligence'
+venue: '(Under Review)'
 # slidesurl: 
 # paperurl: 
 # citation: 

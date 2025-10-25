@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/peem
 excerpt: 'Under-review'
 date: 2025-08-09
-venue: '(Under Review) IEEE Access'
+venue: '(Under Review)'
 # slidesurl: 
 # paperurl: 
 # citation: 

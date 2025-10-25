@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/medical
 excerpt: 'Under-review'
 date: 2025-09-26
-venue: '(Under Review) Alexandria Engineering Journal'
+venue: '(Under Review)'
 # slidesurl: 
 # paperurl: 
 # citation: 

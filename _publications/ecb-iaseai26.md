@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/ecb
 excerpt: 'Our paper is now public on the arXiv!'
 date: 2025-10-25
-venue: 'IASEAI26'
+venue: '(Under Review)'
 # slidesurl: 
 paperurl: 'https://www.alphaxiv.org/overview/2510.20042v1'
 # bibtexurl: 
