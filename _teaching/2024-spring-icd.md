@@ -8,6 +8,4 @@ date: 2024-03-02
 location: "Seoul, South Korea"
 ---
 
-Teaching Assistant: _DAI3069 Independent Capstone Design_. spring 2023 & 
-
-Teaching Assistant: _DAI3085 Independent Capstone Design_. spring 2023 &
+Teaching Assistant: _DAI3069 Independent Capstone Design_. spring 2024
