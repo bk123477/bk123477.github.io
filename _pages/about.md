@@ -16,6 +16,7 @@ I am also deeply interested in **eliciting reasoning capabilities in both large 
 Currently, I am spending six months as a visiting researcher at the Robotics Institute of Carnegie Mellon University under the supervision of Professor Jean Oh. During this period, I am studying the **interaction between robotics and generative AI**, investigating how these two domains can complement and enrich each other.
 
 If you would like to connect or chat, please feel free to reach out:
+
 📧 [jackyh1@dgu.ac.kr](mailto:jackyh1@dgu.ac.kr) | 
 📧 [minkih@andrew.cmu.edu](mailto:minkih@andrew.cmu.edu) | 
 🔗 [LinkedIn](https://www.linkedin.com/in/bk123477) |
