@@ -7,7 +7,7 @@ excerpt: 'Mathematics'
 date: 2025-11-19
 venue: 'Mathematics'
 # slidesurl: 
-# paperurl: 
+paperurl: 'https://doi.org/10.3390/math13223728'
 # citation: 
 ---
 
@@ -58,5 +58,7 @@ Across two medical imaging tasks—brain tumor MRI classification and Products o
 
 ### Conclusion
 This study demonstrates that attention mechanisms—when integrated thoughtfully—greatly enhance CNN performance for medical image classification. Selective and hybrid attention strategies significantly improve feature localization, channel sensitivity, and overall interpretability. With strong results across two heterogeneous medical datasets, this work provides a robust foundation for future clinical deployment of attention-augmented deep learning models.
+
+You can find our paper at this link: [10.3390/math13223728](10.3390/math13223728)
 
 ---
