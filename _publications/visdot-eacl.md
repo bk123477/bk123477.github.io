@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/visdot
 excerpt: 'EACL 2026 (Findings)'
-date: 2025-07-28
+date: 2026-01-04
 venue: 'EACL 2026 (Findings)'
 # paperurl: 
 # citation: 
