@@ -32,11 +32,8 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  # - title: "CV"
-  #   url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
+  - title: "CV"
+    url: /files/CV_Minki_Hong.pdf
     
   # - title: "Guide"
   #   url: /markdown/
