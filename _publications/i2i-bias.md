@@ -14,8 +14,8 @@ venue: 'Under Review'
 We are excited to share our latest research on demographic-conditioned failures in instruction-guided image-to-image (I2I) portrait editing. While demographic bias in text-to-image (T2I) generation is well studied, our work is the first to systematically examine and formalize how identical edit instructions can yield systematically different outcomes across subject demographics in open-weight I2I editors.
 
 <figure>
-  <img src="/images/publications/i2i-bias.png" alt="I2I Bias Evaluation Framework" style="max-width: 800px;">
-  <figcaption><strong>Figure 1.</strong> Overview of demographic-conditioned failures in I2I portrait editing.</figcaption>
+  <img src="/images/publications/i2i_bias.png" alt="I2I Bias Evaluation Framework" style="max-width: 800px;">
+  <figcaption><strong>Figure 1.</strong> Comparison of I2I portrait editing across diverse demographics. Given identity-agnostic prompts (e.g., "senior executive," "senior military strategist"), baseline methods often produce <em>stereotype replacements</em>—changing race or gender toward majority demographics (red boxes). Our prompt-level mitigation preserves the original identity across all demographic groups (green boxes), demonstrating that identity preservation failures disproportionately affect minority subjects.</figcaption>
 </figure>
 
 In this work, we:
