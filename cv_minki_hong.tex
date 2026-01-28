@@ -1,0 +1,200 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[top=0.4in,bottom=0.4in,left=0.5in,right=0.5in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+
+% Hyperlink setup - blue color, no border
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+% Section formatting - professional style
+\titleformat{\section}
+    {\normalfont\bfseries\scshape\large}
+    {}
+    {0em}
+    {}
+\titlespacing{\section}{0pt}{10pt}{2pt}
+
+% Add rule after section title
+\newcommand{\sectionrule}{\vspace{-0.5em}\rule{\textwidth}{0.4pt}\\[0.2em]}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Custom spacing - very tight
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\baselineskip}{1.0\baselineskip}
+\setlength{\topskip}{0pt}
+\sloppy
+
+% Very tight itemize
+\setlist[itemize]{
+    leftmargin=15pt,
+    nosep,
+    topsep=0pt,
+    parsep=0pt,
+    itemsep=0pt,
+    label=$\bullet$
+}
+
+% Custom commands for consistent formatting
+\newcommand{\cvheader}[1]{{\normalsize\bfseries #1}}
+\newcommand{\cvposition}[1]{{\itshape #1}}
+\newcommand{\cvlocation}[1]{{\itshape #1}}
+\newcommand{\cvdate}[1]{\hfill #1}
+
+\begin{document}
+
+% Header - Professional and clean
+
+\begin{center}
+    {\Large\bfseries MIN KI HONG}\\[4pt]
+    \small
+    52, Sadang-ro 17-gil, Dongjak-gu, Seoul, Republic of Korea\\
+    \href{mailto:bk123477@gmail.com}{bk123477@gmail.com} \quad $\cdot$ \quad
+    \href{https://bk123477.github.io/}{bk123477.github.io} \quad $\cdot$ \quad
+    \href{https://github.com/bk123477}{GitHub} \quad $\cdot$ \quad
+    \href{https://www.linkedin.com/in/bk123477}{LinkedIn}
+\end{center}
+
+\section{Research Interests}
+\sectionrule
+Generative AI; Social Norms \& Cultural Bias Mitigation; Fairness \& Inclusivity in AI; Vision-Language Models; Reasoning in LLMs \& VLMs; World Model
+
+\section{Education}
+\sectionrule
+\cvheader{Carnegie Mellon University (CMU)} \cvdate{Aug 2025 -- Feb 2026}\\
+\cvlocation{Pittsburgh, PA, USA},
+Visiting Scholar (Short-term Research Program for six months)\\
+Advisor: \textbf{Prof. Jean Oh}, Robotics Institute\\[2pt]
+
+\cvheader{Dongguk University} \cvdate{Mar 2024 -- Feb 2026}\\
+\cvlocation{Seoul, South Korea},
+M.S. in Computer Science and Artificial Intelligence\\
+CGPA: 4.5/4.5 $\cdot$ Advisor: \textbf{Prof. Jihie Kim}\\[2pt]
+
+\cvheader{Dongguk University} \cvdate{Mar 2018 -- Feb 2024}\\
+\cvlocation{Seoul, South Korea},
+B.S. in Computer Science \& Engineering\\
+CGPA: 4.07/4.5
+
+\section{Research Experience}
+\sectionrule
+\cvheader{Bot Intelligence Group (BIG) at Carnegie Mellon University} \cvdate{Aug 2025 -- Feb 2026}\\
+\cvposition{Visiting Scholar} $\cdot$ Supervisor: \textbf{Prof. Jean Oh}
+\begin{itemize}
+    \item Contributed to cultural bias evaluation in generative image models; designed cultural evaluation metrics.
+\end{itemize}
+
+\vspace{1pt}
+\cvheader{Dongguk University} \cvdate{Mar 2024 -- Feb 2026}\\
+\cvposition{Graduate Researcher} $\cdot$ Supervisor: \textbf{Prof. Jihie Kim}
+\begin{itemize}
+    \item Developed NormGenesis framework for multicultural dialogue generation via social norm modeling and violation recovery.
+    \item Researched prompt engineering evaluation metrics for interpretable joint evaluation of prompts and responses.
+    \item Explored visual reasoning enhancement through human-like interpretation grounding and decomposition of thought.
+\end{itemize}
+
+\section{Publications}
+\sectionrule
+(C: Conference, J: Journal, *: Equal contribution)\\[4pt]
+[C6] Eunsoo Lee, Jeongwoo Lee, \textbf{Minki Hong}, Jangho Choi, Jihie Kim, ``VisDoT: Enhancing Visual Reasoning through Human-Like Interpretation Grounding and Decomposition of Thought,'' \textit{Findings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL findings).}\\[2pt]
+[C5] Huichan Seo*, Sieun Choi*, \textbf{Minki Hong}*, Yi Zhou, Junseo Kim, Lukman Ismaila, Naome Etori, Mehul Agarwal, Zhixuan Liu, Jihie Kim, Jean Oh, ``Exposing Blindspots: Cultural Bias Evaluation in Generative Image Models,'' \textit{International Association for Safe and Ethical Artificial Intelligence (IASEAI'26).}~\url{https://arxiv.org/abs/2510.20042}\\[2pt]
+[C4] \textbf{Minki Hong}, Jangho Choi, Jihie Kim, ``NormGenesis: Multicultural Dialogue Generation via Exemplar-Guided Social Norm Modeling and Violation Recovery,'' \textit{Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025).} \textbf{(SAC Highlights Award)}~\url{https://arxiv.org/abs/2409.08171}\\[2pt]
+[C3] \textbf{Minki Hong}, Youngsik Yun, Sohyeon Park, Jihie Kim, ``Generating Korean Image Captions using OCR in CoT Prompting,'' \textit{Annual Conference on Human and Language Technology (HCLT-KACL 2024).}\\[2pt]
+[C2] Jeongwoo Lee, \textbf{Minki Hong}, Eunsoo Lee, Jihie Kim, ``LLM-based Table Data Inference using Data Augmentation and Few-Shot Prompting,'' \textit{Annual Conference on Human and Language Technology (HCLT-KACL 2024).}\\[2pt]
+[C1] \textbf{Minki Hong}, Seunghyun Lee, Youn-Soon Shin, ``Proposal of an Improved Fall Detection Using GRU,'' \textit{Annual Conference of KIPS (ACK 2023).}\\[2pt]
+[J1] Zainab Ullah, \textbf{Minki Hong}, Tassawar Mahmood, Jihie Kim, ``Systematic Integration of Attention Modules into CNNs for Accurate and Generalizable Medical Image Classification,'' \textit{Mathematics.}~\url{https://arxiv.org/abs/2509.05343}\\[4pt]
+\vspace{2pt}
+{\large\textbf{Under Review}}\\[2pt]
+\textbf{Minki Hong}, Eunsoo Lee, Sohyun Park, Jihie Kim, ``Prompt Engineering Evaluation Metrics for Interpretable Joint Evaluation of Prompts and Responses.''\\[2pt]
+Jahid Ullah, \textbf{Minki Hong}, Tassawar Mahmood, Jihie Kim, ``Navigating the Evolving Landscape of Continual Learning: A Review of Paradigms, Methodologies, and Open Challenges.''
+
+\section{Intellectual Property}
+\sectionrule
+{\large\textbf{Patents}}\\[2pt]
+\textbf{Method for Image Captioning Using OCR Information and Chain-of-Thought Prompting.} Korean Patent Application 10-2025-0138932 \cvdate{Sep 2025}\\[2pt]
+\textbf{Method and System for Evaluating Prompt Engineering.} Korean Patent Application 10-2025-0106691 \cvdate{Aug 2025}\\[2pt]
+\textbf{Method and System for Generating Multicultural Dialogues Based on Exemplar-Guided Social Norm Modeling.} Korean Patent Application 10-2025-0106692 \cvdate{Aug 2025}\\[4pt]
+\vspace{2pt}
+{\large\textbf{Software Registrations}}\\[2pt]
+\textbf{Prompt Engineering Evaluation Program.} Korean Software Registration C-2025-030385 \cvdate{Aug 2025}\\[2pt]
+\textbf{Exemplar-based Iterative Refinement Framework for Multicultural Social Norm Dialogue Generation.} Korean Software Registration C-2025-031729 \cvdate{Aug 2025}\\[2pt]
+\textbf{Korean Captioning using CoT Prompting.} Korean Software Registration C-2025-031728 \cvdate{Aug 2025}\\[2pt]
+\textbf{Korean Captioning for OCR-based Information Extraction.} Korean Software Registration C-2025-030385 \cvdate{Aug 2025}
+
+\section{Awards}
+\sectionrule
+\begin{tabularx}{\textwidth}{@{}p{0.82\textwidth}>{\raggedleft\arraybackslash}X@{}}
+Senior Area Chair (SAC) Highlights Award, EMNLP 2025 (\href{https://2025.emnlp.org/program/awards/}{Link}) & Nov 2025\\
+Honors Graduation, Dongguk University & Feb 2024\\
+Dean's List (Spring Semester), Dongguk University & Jan 2024\\
+DU-Startup Challenge, Grand Prize, Dongguk University & Dec 2023\\
+Dean's List (Spring Semester), Dongguk University & Jan 2023\\
+\end{tabularx}
+
+
+\section{Teaching Experience}
+\sectionrule
+\cvheader{Dongguk University} \cvdate{2023 -- 2025}\\
+\cvposition{Teaching Assistant}
+\begin{itemize}
+    \item Software Engineering and Physical Computing (Summer 2024, 2025)
+    \item Introduction to Internet of Things (Spring 2025)
+    \item Adventure Design (Spring 2023, Fall 2023, Spring 2025)
+    \item Capstone Design 1 \& 2 (Spring 2024, Fall 2024)
+    \item Convergence Capstone Design (Fall 2024)
+    \item Independent Capstone Design (Spring 2023, Fall 2023, Spring 2024)
+    \item Data Structure (Spring 2024)
+\end{itemize}
+
+\vspace{1pt}
+\cvheader{Korea Army Training Center} \cvdate{2020}\\
+\cvposition{Assistant Instructor}
+\begin{itemize}
+    \item Served as assistant instructor during military service.
+\end{itemize}
+
+\section{Extracurricular Activities}
+\sectionrule
+\cvheader{Empirical Methods in Natural Language Processing (EMNLP 2025)} \cvdate{Nov 2025}\\
+\cvposition{Volunteer Coordinator}
+\begin{itemize}
+    \item Served as Volunteer Coordinator, managing 160+ volunteers and overseeing main conference operations.
+    \item Acted as liaison between ACL staff, volunteers, and conference participants.
+\end{itemize}
+
+\vspace{1pt}
+\cvheader{Google Developer Group on Campus (GDGoC), Dongguk University} \cvdate{Aug 2024 -- Jul 2025}\\
+\cvposition{AI/ML Core Member}
+\begin{itemize}
+    \item Led the AI/ML track as a core member.
+    \item Participated in the APAC Solution Challenge 2025, developing Greenap (\href{https://github.com/bk123477/2025-APAC-SolutionChallenge-Greenap}{GitHub}).
+\end{itemize}
+
+\vspace{1pt}
+\cvheader{International Joint Conference on Artificial Intelligence (IJCAI 2024)} \cvdate{Aug 2024}\\
+\cvposition{Student Volunteer}
+\begin{itemize}
+    \item Served as a volunteer for IJCAI 2024, supporting workshop setup and operations (DemocrAI 2024, GAAMAL 2024).
+\end{itemize}
+
+\vspace{1pt}
+\cvheader{Google Developer Student Club (GDSC), Dongguk University} \cvdate{Sep 2023 -- Aug 2024}\\
+\cvposition{AI/ML General Member}
+\begin{itemize}
+    \item Actively contributed as a member in the AI/ML track, participating in seminars.
+    \item Participated in the Google Solution Challenge 2024, contributing to the sMiLe project (\href{https://github.com/bk123477/2024-SolutionChallenge-sMiLe}{GitHub}).
+\end{itemize}
+
+
+
+\end{document}
