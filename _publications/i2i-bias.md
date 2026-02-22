@@ -3,11 +3,11 @@ title: "Evaluating Demographic Misrepresentation in Image-to-Image Portrait Edit
 collection: publications
 category: conferences
 permalink: /publication/i2i-bias
-excerpt: 'This paper is currently under review.'
-date: 2026-01-22
+excerpt: 'Our paper is now public on arXiv!'
+date: 2026-02-22
 venue: 'Under Review'
 # slidesurl: 
-# paperurl: 
+paperurl: 'https://arxiv.org/abs/2602.16149'
 # bibtexurl: 
 # citation: 
 ---

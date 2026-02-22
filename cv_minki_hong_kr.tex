@@ -1,0 +1,202 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[top=0.4in,bottom=0.4in,left=0.5in,right=0.5in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{kotex}
+
+% Hyperlink setup - blue color, no border
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+% Section formatting - professional style
+\titleformat{\section}
+    {\normalfont\bfseries\large}
+    {}
+    {0em}
+    {}
+\titlespacing{\section}{0pt}{10pt}{2pt}
+
+% Add rule after section title
+\newcommand{\sectionrule}{\vspace{-0.5em}\rule{\textwidth}{0.4pt}\\[0.2em]}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Custom spacing - very tight
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\baselineskip}{1.0\baselineskip}
+\setlength{\topskip}{0pt}
+\sloppy
+
+% Very tight itemize
+\setlist[itemize]{
+    leftmargin=15pt,
+    nosep,
+    topsep=0pt,
+    parsep=0pt,
+    itemsep=0pt,
+    label=$\bullet$
+}
+
+% Custom commands for consistent formatting
+\newcommand{\cvheader}[1]{{\normalsize\bfseries #1}}
+\newcommand{\cvposition}[1]{{\itshape #1}}
+\newcommand{\cvlocation}[1]{{\itshape #1}}
+\newcommand{\cvdate}[1]{\hfill #1}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Large\bfseries 홍 민 기}\\[4pt]
+    \small
+    서울특별시 동작구 사당로17길 52\\
+    \href{mailto:bk123477@gmail.com}{bk123477@gmail.com} \quad $\cdot$ \quad
+    \href{https://bk123477.github.io/}{bk123477.github.io} \quad $\cdot$ \quad
+    \href{https://github.com/bk123477}{GitHub} \quad $\cdot$ \quad
+    \href{https://www.linkedin.com/in/bk123477}{LinkedIn}
+\end{center}
+
+\section{연구 관심 분야}
+\sectionrule
+생성형 AI; 사회적 규범 및 문화적 편향 완화; AI 공정성 및 포용성; 시각-언어 모델; LLM 및 VLM 추론; 월드 모델
+
+\section{학력}
+\sectionrule
+\cvheader{카네기멜론대학교 (CMU)} \cvdate{2025. 08 -- 2026. 02}\\
+\cvlocation{미국 피츠버그},
+방문 연구원 (6개월 단기 연구 프로그램)\\
+지도교수: \textbf{Jean Oh} 교수, Robotics Institute\\[2pt]
+
+\cvheader{동국대학교} \cvdate{2024. 03 -- 2026. 02}\\
+\cvlocation{서울},
+컴퓨터공학과 인공지능 전공 공학석사\\
+학점: 4.5/4.5 $\cdot$ 지도교수: \textbf{김지희} 교수\\[2pt]
+
+\cvheader{동국대학교} \cvdate{2018. 03 -- 2024. 02}\\
+\cvlocation{서울},
+컴퓨터공학 전공 공학사\\
+학점: 4.07/4.5
+
+\section{연구 경험}
+\sectionrule
+\cvheader{Bot Intelligence Group (BIG), 카네기멜론대학교} \cvdate{2025. 08 -- 2026. 02}\\
+\cvposition{방문 연구원} $\cdot$ 지도교수: \textbf{Jean Oh} 교수
+\begin{itemize}
+    \item 생성형 이미지 모델의 문화적 편향 평가 연구 수행; 문화적 평가 메트릭 설계.
+    \item 지시 기반 이미지-투-이미지 초상화 편집의 인구통계학적 조건부 실패 모드(Soft Erasure, Stereotype Replacement) 규명 및 프롬프트 수준의 정체성 보존 완화 기법 제안.
+\end{itemize}
+
+\vspace{1pt}
+\cvheader{동국대학교} \cvdate{2024. 03 -- 2026. 02}\\
+\cvposition{대학원 연구원} $\cdot$ 지도교수: \textbf{김지희} 교수
+\begin{itemize}
+    \item 사회적 규범 모델링 및 위반 복구를 통한 다문화 대화 생성 프레임워크 NormGenesis 개발.
+    \item 프롬프트와 응답의 해석 가능한 통합 평가를 위한 프롬프트 엔지니어링 평가 메트릭 연구.
+    \item 인간의 해석 기반 시각적 추론 강화 및 사고 분해(Decomposition of Thought) 연구.
+\end{itemize}
+
+\section{논문}
+\sectionrule
+(C: 학술대회, J: 저널, *: 동등 기여)\\[4pt]
+[C6] Eunsoo Lee, Jeongwoo Lee, \textbf{Minki Hong}, Jangho Choi, Jihie Kim, ``VisDoT: Enhancing Visual Reasoning through Human-Like Interpretation Grounding and Decomposition of Thought,'' \textit{Findings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL findings).}\\[2pt]
+[C5] Huichan Seo*, Sieun Choi*, \textbf{Minki Hong}*, Yi Zhou, Junseo Kim, Lukman Ismaila, Naome Etori, Mehul Agarwal, Zhixuan Liu, Jihie Kim, Jean Oh, ``Exposing Blindspots: Cultural Bias Evaluation in Generative Image Models,'' \textit{International Association for Safe and Ethical Artificial Intelligence (IASEAI'26).}~\url{https://arxiv.org/abs/2510.20042}\\[2pt]
+[C4] \textbf{Minki Hong}, Jangho Choi, Jihie Kim, ``NormGenesis: Multicultural Dialogue Generation via Exemplar-Guided Social Norm Modeling and Violation Recovery,'' \textit{Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025).} \textbf{(SAC Highlights Award)}~\url{https://arxiv.org/abs/2409.08171}\\[2pt]
+[C3] \textbf{Minki Hong}, Youngsik Yun, Sohyeon Park, Jihie Kim, ``Generating Korean Image Captions using OCR in CoT Prompting,'' \textit{Annual Conference on Human and Language Technology (HCLT-KACL 2024).}\\[2pt]
+[C2] Jeongwoo Lee, \textbf{Minki Hong}, Eunsoo Lee, Jihie Kim, ``LLM-based Table Data Inference using Data Augmentation and Few-Shot Prompting,'' \textit{Annual Conference on Human and Language Technology (HCLT-KACL 2024).}\\[2pt]
+[C1] \textbf{Minki Hong}, Seunghyun Lee, Youn-Soon Shin, ``Proposal of an Improved Fall Detection Using GRU,'' \textit{Annual Conference of KIPS (ACK 2023).}\\[2pt]
+[J1] Zainab Ullah, \textbf{Minki Hong}, Tassawar Mahmood, Jihie Kim, ``Systematic Integration of Attention Modules into CNNs for Accurate and Generalizable Medical Image Classification,'' \textit{Mathematics.}~\url{https://arxiv.org/abs/2509.05343}\\[4pt]
+\vspace{2pt}
+{\large\textbf{심사 중}}\\[2pt]
+Huichan Seo, \textbf{Minki Hong}, Sieun Choi, Jihie Kim, Jean Oh, ``Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing.''~\url{https://arxiv.org/abs/2602.16149}\\[2pt]
+\textbf{Minki Hong}, Eunsoo Lee, Sohyun Park, Jihie Kim, ``Prompt Engineering Evaluation Metrics for Interpretable Joint Evaluation of Prompts and Responses.''\\[2pt]
+Jahid Ullah, \textbf{Minki Hong}, Tassawar Mahmood, Jihie Kim, ``Navigating the Evolving Landscape of Continual Learning: A Review of Paradigms, Methodologies, and Open Challenges.''
+
+\section{지식재산권}
+\sectionrule
+{\large\textbf{특허}}\\[2pt]
+\textbf{OCR 정보 및 생각의 사슬 프롬프팅을 활용한 이미지 캡셔닝 방법.} 국내 특허출원 10-2025-0138932 \cvdate{2025. 09}\\[2pt]
+\textbf{프롬프트 엔지니어링 평가 방법 및 시스템.} 국내 특허출원 10-2025-0106691 \cvdate{2025. 08}\\[2pt]
+\textbf{예시 기반 사회적 규범 모델링을 활용한 다문화 대화 생성 방법 및 시스템.} 국내 특허출원 10-2025-0106692 \cvdate{2025. 08}\\[4pt]
+\vspace{2pt}
+{\large\textbf{소프트웨어 등록}}\\[2pt]
+\textbf{프롬프트 엔지니어링 평가 프로그램.} 국내 소프트웨어 등록 C-2025-030385 \cvdate{2025. 08}\\[2pt]
+\textbf{다문화 사회적 규범 대화 생성을 위한 예시 기반 반복 정제 프레임워크.} 국내 소프트웨어 등록 C-2025-031729 \cvdate{2025. 08}\\[2pt]
+\textbf{CoT 프롬프팅 기반 한국어 캡셔닝.} 국내 소프트웨어 등록 C-2025-031728 \cvdate{2025. 08}\\[2pt]
+\textbf{OCR 기반 정보 추출 한국어 캡셔닝.} 국내 소프트웨어 등록 C-2025-030385 \cvdate{2025. 08}
+
+\section{수상}
+\sectionrule
+\begin{tabularx}{\textwidth}{@{}p{0.82\textwidth}>{\raggedleft\arraybackslash}X@{}}
+Senior Area Chair (SAC) Highlights Award, EMNLP 2025 (\href{https://2025.emnlp.org/program/awards/}{Link}) & 2025. 11\\
+우등 졸업, 동국대학교 & 2024. 02\\
+학장상 (봄학기), 동국대학교 & 2024. 01\\
+DU-Startup Challenge 대상, 동국대학교 & 2023. 12\\
+학장상 (봄학기), 동국대학교 & 2023. 01\\
+\end{tabularx}
+
+
+\section{교육 경험}
+\sectionrule
+\cvheader{동국대학교} \cvdate{2023 -- 2025}\\
+\cvposition{수업조교}
+\begin{itemize}
+    \item 소프트웨어 공학 및 피지컬 컴퓨팅 (2024년 여름, 2025년 여름)
+    \item 사물인터넷 개론 (2025년 봄)
+    \item 어드벤처 디자인 (2023년 봄, 2023년 가을, 2025년 봄)
+    \item 캡스톤 디자인 1 \& 2 (2024년 봄, 2024년 가을)
+    \item 융합 캡스톤 디자인 (2024년 가을)
+    \item 자율 캡스톤 디자인 (2023년 봄, 2023년 가을, 2024년 봄)
+    \item 자료구조 (2024년 봄)
+\end{itemize}
+
+\vspace{1pt}
+\cvheader{육군훈련소} \cvdate{2020}\\
+\cvposition{조교}
+\begin{itemize}
+    \item 군 복무 중 훈련 조교로 근무.
+\end{itemize}
+
+\section{대외 활동}
+\sectionrule
+\cvheader{Empirical Methods in Natural Language Processing (EMNLP 2025)} \cvdate{2025. 11}\\
+\cvposition{자원봉사 코디네이터}
+\begin{itemize}
+    \item 자원봉사 코디네이터로서 160명 이상의 자원봉사자를 관리하고 본 학회 운영을 총괄.
+    \item ACL 스태프, 자원봉사자, 학회 참가자 간 연락 담당.
+\end{itemize}
+
+\vspace{1pt}
+\cvheader{Google Developer Group on Campus (GDGoC), 동국대학교} \cvdate{2024. 08 -- 2025. 07}\\
+\cvposition{AI/ML 코어 멤버}
+\begin{itemize}
+    \item AI/ML 트랙 코어 멤버로 활동.
+    \item APAC Solution Challenge 2025 참가, Greenap 개발 (\href{https://github.com/bk123477/2025-APAC-SolutionChallenge-Greenap}{GitHub}).
+\end{itemize}
+
+\vspace{1pt}
+\cvheader{International Joint Conference on Artificial Intelligence (IJCAI 2024)} \cvdate{2024. 08}\\
+\cvposition{학생 자원봉사자}
+\begin{itemize}
+    \item IJCAI 2024 자원봉사자로 워크숍 준비 및 운영 지원 (DemocrAI 2024, GAAMAL 2024).
+\end{itemize}
+
+\vspace{1pt}
+\cvheader{Google Developer Student Club (GDSC), 동국대학교} \cvdate{2023. 09 -- 2024. 08}\\
+\cvposition{AI/ML 일반 멤버}
+\begin{itemize}
+    \item AI/ML 트랙 멤버로 세미나 참여 등 활발히 활동.
+    \item Google Solution Challenge 2024 참가, sMiLe 프로젝트 기여 (\href{https://github.com/bk123477/2024-SolutionChallenge-sMiLe}{GitHub}).
+\end{itemize}
+
+
+
+\end{document}
