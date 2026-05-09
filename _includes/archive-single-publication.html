@@ -3,34 +3,11 @@
   <article class="archive__item archive__item--publication" itemscope itemtype="http://schema.org/CreativeWork">
     
     <div class="archive__item-pub-container">
+      {% if post.image and post.image != "" %}
       <div class="archive__item-pub-thumbnail">
-        {% if post.image %}
-          <img src="{{ post.image | prepend: base_path }}" alt="{{ post.title }} thumbnail">
-        {% else %}
-          <div class="pub-placeholder">
-            <div class="pub-placeholder__badge">
-              {% if post.category == "conferences" %}
-                Conference
-              {% elsif post.category == "journals" %}
-                Journal
-              {% elsif post.category == "domestic" %}
-                Domestic
-              {% elsif post.category == "manuscripts" %}
-                Manuscript
-              {% else %}
-                Publication
-              {% endif %}
-            </div>
-            <div class="pub-placeholder__icon">
-              <i class="fas fa-file-lines"></i>
-            </div>
-            <div class="pub-placeholder__title">{{ post.title | truncate: 48 }}</div>
-            <div class="pub-placeholder__meta">
-              {% if post.venue %}{{ post.venue }}{% endif %}{% if post.venue and post.date %} · {% endif %}{% if post.date %}{{ post.date | date: "%Y" }}{% endif %}
-            </div>
-          </div>
-        {% endif %}
+        <img src="{{ post.image | prepend: base_path }}" alt="{{ post.title }} thumbnail">
       </div>
+      {% endif %}
 
       <div class="archive__item-pub-content">
         <h2 class="archive__item-title" itemprop="headline">
@@ -46,16 +23,16 @@
         {% endif %}
 
         <div class="archive__item-links">
-          {% if post.paperurl %}
+          {% if post.paperurl and post.paperurl != "" %}
             <a href="{{ post.paperurl }}" class="btn btn--primary btn--small" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i> Paper</a>
           {% endif %}
-          {% if post.codeurl %}
+          {% if post.codeurl and post.codeurl != "" %}
             <a href="{{ post.codeurl }}" class="btn btn--info btn--small" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
           {% endif %}
-          {% if post.projecturl %}
+          {% if post.projecturl and post.projecturl != "" %}
             <a href="{{ post.projecturl }}" class="btn btn--success btn--small" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i> Project Page</a>
           {% endif %}
-          {% if post.slidesurl %}
+          {% if post.slidesurl and post.slidesurl != "" %}
             <a href="{{ post.slidesurl }}" class="btn btn--warning btn--small" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-powerpoint"></i> Slides</a>
           {% endif %}
         </div>
