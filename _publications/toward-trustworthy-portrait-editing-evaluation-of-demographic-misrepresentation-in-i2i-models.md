@@ -6,14 +6,17 @@ permalink: /publication/i2i-bias
 excerpt: 'Our paper is now public on arXiv!'
 date: 2026-02-22
 venue: 'Under Review'
-# slidesurl: 
+slidesurl: ''
 paperurl: 'https://arxiv.org/abs/2602.16149'
+codeurl: ''
+projecturl: 'https://seochan99.github.io/i2i-demographic-bias/'
 # bibtexurl: 
 # citation: 
 image: 'assets/images/publications/evaluating_demographic.png'
 abstract: 'Instruction-guided image-to-image (I2I) editors are increasingly entering consumer and professional visual workflows, where trustworthiness depends not only on prompt compliance but also on equitable preservation of identity-relevant attributes. We formalize two failure modes Soft Erasure, where requested edits are weakly realized or silently suppressed, and Stereotype Replacement, where edits introduce unrequested, stereotype-consistent demographic attributes and evaluate them across three recent open-weight editors on 5,040 edited portraits. We find that 62-71% of outputs exhibit skin lightening, with Indian and Black source portraits affected at 72-75% compared with 44\% for White source portraits, a pattern consistent with output-level drift toward lighter or more White-presenting appearances when identity constraints are underspecified. In a mitigation case study, prompt-level appearance constraints reduce race-change scores for non-White source portraits by up to 1.48 points, with negligible change for White source portraits, without modifying model weights. Together, these findings show that identity preservation is not a uniform property of I2I portrait editing systems, but an unevenly distributed trustworthiness failure with direct social consequences. At deployment scale, such silent distortions can shape AI-mediated self-representation and reinforce representational disparities. We introduce a controlled audit protocol for fairness-aware evaluation and governance of generative editing systems.'
 authors: ''
 selected: false
+published: true
 ---
 We are excited to share our latest research on demographic-conditioned failures in instruction-guided image-to-image (I2I) portrait editing. While demographic bias in text-to-image (T2I) generation is well studied, our work is the first to systematically examine and formalize how identical edit instructions can yield systematically different outcomes across subject demographics in open-weight I2I editors.
 

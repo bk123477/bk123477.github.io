@@ -6,12 +6,16 @@ permalink: /publication/visdot
 excerpt: 'EACL 2026 (Findings)'
 date: 2026-01-04
 venue: 'EACL 2026 (Findings)'
-# paperurl: 
+paperurl: ''
+codeurl: ''
+projecturl: ''
+slidesurl: ''
 # citation: 
 image: ''
 abstract: ''
 authors: ''
 selected: 3
+published: true
 ---
 
 Excited to share that our paper, "VisDoT : Enhancing Visual Reasoning through Human-Like Interpretation Grounding and Decomposition of Thought," has been accepted to EACL 2026 (Findings)! 🎉

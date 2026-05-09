@@ -6,13 +6,16 @@ permalink: /publication/medical
 excerpt: 'Mathematics'
 date: 2025-11-19
 venue: 'Mathematics'
-# slidesurl: 
+slidesurl: ''
 paperurl: 'https://doi.org/10.3390/math13223728'
+codeurl: ''
+projecturl: ''
 # citation: 
 image: ''
 abstract: ''
 authors: ''
 selected: false
+published: true
 ---
 
 ### Overview

@@ -6,13 +6,16 @@ permalink: /publication/continual-learning
 excerpt: 'Under-review'
 date: 2025-08-05
 venue: '(Under Review)'
-# slidesurl: 
-# paperurl: 
+slidesurl: ''
+paperurl: ''
+codeurl: ''
+projecturl: ''
 # citation: 
 image: ''
 abstract: ''
 authors: ''
 selected: false
+published: true
 ---
 Under-review
 =====
