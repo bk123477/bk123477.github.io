@@ -11,7 +11,7 @@ venue: 'EACL 2026 (Findings)'
 image: ''
 abstract: ''
 authors: ''
-selected: true
+selected: 3
 ---
 
 Excited to share that our paper, "VisDoT : Enhancing Visual Reasoning through Human-Like Interpretation Grounding and Decomposition of Thought," has been accepted to EACL 2026 (Findings)! 🎉

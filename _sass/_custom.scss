@@ -17,11 +17,25 @@
 /* === Custom Grid Wrapper === */
 .custom-grid-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   width: 100%;
   margin-bottom: 2rem;
   align-items: stretch; /* ensure equal height columns */
+  display: flow-root; /* Fix for sidebar overlap */
+  display: grid; /* Re-enable grid */
+}
+
+@media (max-width: 1024px) {
+  .custom-grid-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-grid-wrapper {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* === Custom Publication Styles === */

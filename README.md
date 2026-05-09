@@ -23,9 +23,12 @@ All publications are stored in the `_publications/` directory.
    - `date`: The publication date (`YYYY-MM-DD`).
    - `authors`: The list of authors (bold your name with `**Minki Hong**`).
    - `image`: The path to your thumbnail (e.g., `/assets/images/publications/my_image.png`).
-   - `paperurl`: The path to your PDF (e.g., `/assets/files/publications/my_paper.pdf`).
+   - `paperurl`: The path to your PDF (e.g., `/assets/files/publications/my_paper.pdf`). Clicking the title of the paper will lead to the internal details page, while the "Paper" button will lead here.
+   - `codeurl`: Link to your GitHub repository.
+   - `projecturl`: Link to your project page.
+   - `slidesurl`: Link to your presentation slides.
    - `abstract`: The full abstract of the paper. This will be hidden behind a clean toggle button on the website.
-   - `selected`: Set to `true` (e.g., `selected: true`) to feature this paper in the "Selected Publications" section on the Home page.
+   - `selected`: Set to a number (e.g., `selected: 1`, `selected: 2`) to feature this paper in the "Selected Publications" section on the Home page. They will be displayed in numerical order (1, 2, 3...).
    - `published`: Set to `false` (e.g., `published: false`) if you want to hide the file completely (like the template file).
 
 ### 2. Adding a New News/Blog Post

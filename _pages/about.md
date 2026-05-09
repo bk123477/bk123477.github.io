@@ -34,7 +34,7 @@ If you would like to connect or chat, please feel free to reach out:
 </div>
 
 ## 📚 Selected Publications
-{% assign sorted_pubs = site.publications | where: "selected", true | sort: 'date' | reverse %}
+{% assign sorted_pubs = site.publications | where_exp: "item", "item.selected" | sort: 'selected' %}
 {% for post in sorted_pubs %}
   {% include archive-single-publication.html %}
 {% endfor %}

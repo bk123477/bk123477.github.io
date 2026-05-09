@@ -17,11 +17,7 @@
 
       <div class="archive__item-pub-content">
         <h2 class="archive__item-title" itemprop="headline">
-          {% if post.paperurl %}
-            <a href="{{ post.paperurl }}">{{ post.title }}</a>
-          {% else %}
-            {{ post.title }}
-          {% endif %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
         </h2>
 
         {% if post.authors %}
@@ -41,6 +37,9 @@
           {% endif %}
           {% if post.projecturl %}
             <a href="{{ post.projecturl }}" class="btn btn--success btn--small" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i> Project Page</a>
+          {% endif %}
+          {% if post.slidesurl %}
+            <a href="{{ post.slidesurl }}" class="btn btn--warning btn--small" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-powerpoint"></i> Slides</a>
           {% endif %}
         </div>
 
