@@ -1,0 +1,57 @@
+{% include base_path %}
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item archive__item--publication" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <div class="archive__item-pub-container">
+      <div class="archive__item-pub-thumbnail">
+        {% if post.image %}
+          <img src="{{ post.image | prepend: base_path }}" alt="{{ post.title }} thumbnail">
+        {% else %}
+          <!-- Placeholder if no image provided -->
+          <div class="pub-placeholder">
+            <i class="fas fa-image fa-2x"></i>
+            <span>Add Framework</span>
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="archive__item-pub-content">
+        <h2 class="archive__item-title" itemprop="headline">
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}">{{ post.title }}</a>
+          {% else %}
+            {{ post.title }}
+          {% endif %}
+        </h2>
+
+        {% if post.authors %}
+          <p class="archive__item-authors">{{ post.authors }}</p>
+        {% endif %}
+
+        {% if post.venue %}
+          <p class="archive__item-venue"><i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
+        {% endif %}
+
+        <div class="archive__item-links">
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}" class="btn btn--primary btn--small" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i> Paper</a>
+          {% endif %}
+          {% if post.codeurl %}
+            <a href="{{ post.codeurl }}" class="btn btn--info btn--small" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Code</a>
+          {% endif %}
+          {% if post.projecturl %}
+            <a href="{{ post.projecturl }}" class="btn btn--success btn--small" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i> Project Page</a>
+          {% endif %}
+        </div>
+
+        {% if post.abstract %}
+          <details class="archive__item-abstract-toggle">
+            <summary>Abstract</summary>
+            <p>{{ post.abstract }}</p>
+          </details>
+        {% endif %}
+      </div>
+    </div>
+
+  </article>
+</div>
