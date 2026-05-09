@@ -12,6 +12,7 @@ paperurl: 'https://ieeexplore.ieee.org/document/11460151'
 image: ''
 abstract: ''
 authors: ''
+selected: true
 ---
 
 Excited to share that our paper, "**PEEM: Prompt Engineering Evaluation Metrics for Interpretable Joint Evaluation of Prompts and Responses**," has been published in **IEEE Access**! 🎉

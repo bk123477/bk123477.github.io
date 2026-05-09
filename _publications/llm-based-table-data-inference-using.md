@@ -12,6 +12,7 @@ citation: 'Lee, J., Hong, M., Lee, E., & Kim, J. (2024). LLM-based Table Data In
 image: ''
 abstract: ''
 authors: ''
+selected: false
 ---
 
 ### Overview

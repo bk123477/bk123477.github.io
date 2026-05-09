@@ -13,6 +13,7 @@ paperurl: 'https://www.alphaxiv.org/overview/2510.20042v1'
 image: ''
 abstract: ''
 authors: ''
+selected: true
 ---
 Thrilled to share that our paper, "Exposing Blindspots: Cultural Bias Evaluation in Generative Image Models" is now public on the arXiv!
 
