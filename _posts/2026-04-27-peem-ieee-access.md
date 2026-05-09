@@ -1,5 +1,5 @@
 ---
-title: 'PEEM paper published in IEEE Access! 🏆'
+title: 'PEEM paper published in IEEE Access!'
 date: 2026-04-27
 permalink: /posts/2026/04/peem-ieee-access/
 tags:
@@ -7,7 +7,6 @@ tags:
   - Publication
   - Prompt Engineering
   - Evaluation Metrics
-selected: 1
 ---
 
 I am thrilled to announce that our paper, "**PEEM: Prompt Engineering Evaluation Metrics for Interpretable Joint Evaluation of Prompts and Responses**," has been officially published in **IEEE Access**! 📄

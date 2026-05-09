@@ -5,6 +5,7 @@ permalink: /posts/2025/11/emnlp/
 tags:
   - EMNLP 2025
   - Conference
+selected: 2
 ---
 
 I'm honored to share that I presented my first paper at EMNLP2025, the very conference where I first read the paper that sparked my journey into AI research: “SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization.” Starting from the concepts introduced in SODA, I eventually delved into the research area of social norm dialogue, which became the foundation of my current work. It was truly meaningful to come full circle and present at the same conference that first inspired me.

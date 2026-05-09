@@ -6,6 +6,7 @@ tags:
   - CMU
   - Robotics
   - Education
+selected: 3
 ---
 
 I will be joining [Bot Intelligence Group](https://cmubig.github.io/) at Carnegie Mellon University Robotics Institute as a visiting student for six months.
