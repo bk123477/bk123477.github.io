@@ -22,7 +22,7 @@ If you would like to connect or chat, please feel free to reach out:
 
 ---
 
-## 📰 Recent News
+## 📰 Selected News
 <div class="custom-grid-wrapper">
 {% assign sorted_posts = site.posts | where_exp: "item", "item.selected" | sort: 'selected' %}
 {% for post in sorted_posts %}

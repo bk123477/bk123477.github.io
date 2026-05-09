@@ -7,11 +7,13 @@ excerpt: 'Our paper is now public on the arXiv!'
 date: 2025-10-25
 venue: 'IASEAI 2026'
 # slidesurl: 
-paperurl: 'https://www.alphaxiv.org/overview/2510.20042v1'
+paperurl: 'https://arxiv.org/abs/2510.20042'
+projecturl: 'https://seochan99.github.io/ECB/'
+codeurl: 'https://github.com/cmubig/ECB'
 # bibtexurl: 
 # citation: 
-image: ''
-abstract: ''
+image: 'assets/images/publications/exposing_blindspot.png'
+abstract: 'Generative image models produce striking visuals yet often misrepresent culture. Prior work has examined cultural bias mainly in text-to-image (T2I) systems, leaving image-to-image (I2I) editors underexplored. We bridge this gap with a unified evaluation across six countries, an 8-category/36-subcategory schema, and era-aware prompts, auditing both T2I generation and I2I editing under a standardized protocol that yields comparable diagnostics. Using open models with fixed settings, we derive cross-country, cross-era, and cross-category evaluations. Our framework combines standard automatic metrics, a culture-aware retrieval-augmented VQA, and expert human judgments collected from native reviewers. To enable reproducibility, we release the complete image corpus, prompts, and configurations. Our study reveals three findings: (1) under country-agnostic prompts, models default to Global-North, modern-leaning depictions that flatten cross-country distinctions; (2) iterative I2I editing erodes cultural fidelity even when conventional metrics remain flat or improve; and (3) I2I models apply superficial cues (palette shifts, generic props) rather than era-consistent, context-aware changes, often retaining source identity for Global-South targets. These results highlight that culture-sensitive edits remain unreliable in current systems. By releasing standardized data, prompts, and human evaluation protocols, we provide a reproducible, culture-centered benchmark for diagnosing and tracking cultural bias in generative image models.'
 authors: ''
 selected: 2
 ---
