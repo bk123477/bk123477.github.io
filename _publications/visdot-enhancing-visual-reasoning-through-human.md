@@ -6,13 +6,13 @@ permalink: /publication/visdot
 excerpt: 'EACL 2026 (Findings)'
 date: 2026-01-04
 venue: 'EACL 2026 (Findings)'
-paperurl: ''
-codeurl: ''
+paperurl: 'https://aclanthology.org/2026.findings-eacl.30/'
+codeurl: 'https://github.com/bongdong22/VisDoTQA'
 projecturl: ''
 slidesurl: ''
 # citation: 
-image: ''
-abstract: ''
+image: '/assets/images/publications/visdot.png'
+abstract: 'Large vision-language models (LVLMs) struggle to reliably detect visual primitives in charts and align them with semantic representations, which severely limits their performance on complex visual reasoning. This lack of perceptual grounding constitutes a major bottleneck for chart-based reasoning. We propose VisDoT, a framework that enhances visual reasoning through human-like interpretation grounding. We formalize four perceptual tasks based on the theory of graphical perception, including position and length. Building on this foundation, we introduce Decomposition-of-Thought (DoT) prompting, which sequentially separates questions into visual perception sub-questions and logic sub-questions. Fine-tuning InternVL with VisDoT achieves a +11.2% improvement on ChartQA and surpasses GPT-4o on the more challenging ChartQAPro benchmark. On the newly introduced VisDoTQA benchmark, the model improves by +33.2%. Furthermore, consistent zero-shot gains on diverse open-domain VQA benchmarks confirm the generalizability of the perception-logic separation strategy for visual question answering. VisDoT leverages human-like perception to enhance visual grounding, achieving state-of-the-art chart understanding and interpretable visual reasoning.'
 authors: ''
 selected: 3
 published: true

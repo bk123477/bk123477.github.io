@@ -116,6 +116,14 @@
   flex-wrap: wrap;
 }
 
+.archive__item-links .btn--primary {
+  background-color: #1f5f8b;
+}
+
+.archive__item-links .btn--primary:hover {
+  background-color: #184a6c;
+}
+
 .archive__item-abstract-toggle {
   background-color: transparent;
   border: 1px solid rgba(128, 128, 128, 0.2);
