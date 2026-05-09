@@ -7,10 +7,27 @@
         {% if post.image %}
           <img src="{{ post.image | prepend: base_path }}" alt="{{ post.title }} thumbnail">
         {% else %}
-          <!-- Placeholder if no image provided -->
           <div class="pub-placeholder">
-            <i class="fas fa-image fa-2x"></i>
-            <span>Add Framework</span>
+            <div class="pub-placeholder__badge">
+              {% if post.category == "conferences" %}
+                Conference
+              {% elsif post.category == "journals" %}
+                Journal
+              {% elsif post.category == "domestic" %}
+                Domestic
+              {% elsif post.category == "manuscripts" %}
+                Manuscript
+              {% else %}
+                Publication
+              {% endif %}
+            </div>
+            <div class="pub-placeholder__icon">
+              <i class="fas fa-file-lines"></i>
+            </div>
+            <div class="pub-placeholder__title">{{ post.title | truncate: 48 }}</div>
+            <div class="pub-placeholder__meta">
+              {% if post.venue %}{{ post.venue }}{% endif %}{% if post.venue and post.date %} · {% endif %}{% if post.date %}{{ post.date | date: "%Y" }}{% endif %}
+            </div>
           </div>
         {% endif %}
       </div>
