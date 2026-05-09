@@ -11,6 +11,7 @@ citation: 'Hong, M., Yun, Y., Park, S., & Kim, J. (2024). Generating Korean Imag
 image: ''
 abstract: ''
 authors: ''
+selected: false
 ---
 
 ### Overview
