@@ -11,7 +11,7 @@ codeurl: ''
 projecturl: ''
 slidesurl: ''
 citation: 'Hong, M.-K., Lee, S.-H., & Shin, Y.-S. (2023). Proposal of an Improved Fall Detection Using GRU. Annual Conference of KIPS, 287–288. https://doi.org/10.3745/PKIPS.Y2023M11A.287.'
-image: 'assets/images/publications/gru.jpg'
+image: '/assets/images/publications/gru.jpg'
 abstract: '우리 사회가 고령화시대로 접어들면서 낙상은 매우 심각한 사회문제가 되고 있으며 정확한 낙 상 감지 기술의 수요도 늘고 있다. 본 연구는 웹 캠을 이용한 개선된 낙상감지 기법을 제안한다. 제 안하는 기법은 RGB 영상을 기반으로 스켈레톤 포즈 추출, 데이터 가공, GRU(Gated Recurrent Unit) 신 경망 알고리즘을 적용한 낙상 감지 실험 및 감지 결과 분석의 과정이 포함된다.'
 authors: ''
 selected: false
