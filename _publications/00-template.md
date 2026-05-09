@@ -12,6 +12,8 @@ projecturl: 'https://github.com/project'
 codeurl: 'https://github.com/code'
 image: '/assets/images/publications/example_thumbnail.png'
 abstract: 'This is the abstract of the paper. It will be hidden behind a toggle button. You can put the full abstract here to allow visitors to read it without leaving the site.'
+selected: false
+published: false
 ---
 
 You can also include more detailed content here. It will be shown if the user clicks on the paper title to view the full page.

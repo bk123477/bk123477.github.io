@@ -13,6 +13,7 @@ paperurl: 'https://arxiv.org/abs/2602.16149'
 image: ''
 abstract: ''
 authors: ''
+selected: true
 ---
 We are excited to share our latest research on demographic-conditioned failures in instruction-guided image-to-image (I2I) portrait editing. While demographic bias in text-to-image (T2I) generation is well studied, our work is the first to systematically examine and formalize how identical edit instructions can yield systematically different outcomes across subject demographics in open-weight I2I editors.
 

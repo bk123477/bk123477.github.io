@@ -25,6 +25,8 @@ All publications are stored in the `_publications/` directory.
    - `image`: The path to your thumbnail (e.g., `/assets/images/publications/my_image.png`).
    - `paperurl`: The path to your PDF (e.g., `/assets/files/publications/my_paper.pdf`).
    - `abstract`: The full abstract of the paper. This will be hidden behind a clean toggle button on the website.
+   - `selected`: Set to `true` (e.g., `selected: true`) to feature this paper in the "Selected Publications" section on the Home page.
+   - `published`: Set to `false` (e.g., `published: false`) if you want to hide the file completely (like the template file).
 
 ### 2. Adding a New News/Blog Post
 News and blog posts are stored in the `_posts/` directory.
