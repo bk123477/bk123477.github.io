@@ -41,6 +41,7 @@ News and blog posts are stored in the `_posts/` directory.
    title: "Your News Title"
    date: YYYY-MM-DD
    permalink: /posts/YYYY/MM/title/
+   selected: 1  # Optional: Set a number to feature this on the Home page
    tags:
      - news
      - updates

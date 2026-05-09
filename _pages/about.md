@@ -24,8 +24,8 @@ If you would like to connect or chat, please feel free to reach out:
 
 ## 📰 Recent News
 <div class="custom-grid-wrapper">
-{% assign sorted_posts = site.posts | sort: 'date' | reverse %}
-{% for post in sorted_posts limit:2 %}
+{% assign sorted_posts = site.posts | where_exp: "item", "item.selected" | sort: 'selected' %}
+{% for post in sorted_posts %}
   {% include archive-single-card.html %}
 {% endfor %}
 </div>

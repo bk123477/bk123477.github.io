@@ -22,8 +22,6 @@
   width: 100%;
   margin-bottom: 2rem;
   align-items: stretch; /* ensure equal height columns */
-  display: flow-root; /* Fix for sidebar overlap */
-  display: grid; /* Re-enable grid */
 }
 
 @media (max-width: 1024px) {

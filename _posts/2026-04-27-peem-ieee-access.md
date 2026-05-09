@@ -7,6 +7,7 @@ tags:
   - Publication
   - Prompt Engineering
   - Evaluation Metrics
+selected: 1
 ---
 
 I am thrilled to announce that our paper, "**PEEM: Prompt Engineering Evaluation Metrics for Interpretable Joint Evaluation of Prompts and Responses**," has been officially published in **IEEE Access**! 📄

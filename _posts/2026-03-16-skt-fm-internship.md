@@ -6,6 +6,7 @@ tags:
   - SKT
   - Foundation Model
   - Internship
+selected: 2
 ---
 
 I will be joining **SK Telecom (SKT)** as an intern from **March 16 to June 30, 2026**, working on their proprietary foundation model. Excited to contribute to the development of SKT's in-house foundation model and gain hands-on industry experience! 🎉
