@@ -1,7 +1,7 @@
 ---
 title: "PEEM: Prompt Engineering Evaluation Metrics for Interpretable Joint Evaluation of Prompts and Responses in LLMs"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/peem
 excerpt: 'Our paper has been published in IEEE Access!'
 date: 2026-04-24
